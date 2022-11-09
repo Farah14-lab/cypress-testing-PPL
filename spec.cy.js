@@ -8,7 +8,7 @@ describe('Login Bitlabs', () => {
     cy.get('[value=""] > .bb-flex-h-start-center').type(password);
     cy.get('.bb-submit').click();
   });
-  it('Site profile', () => { 
+  it('dashboard', () => { 
     cy.get('[href="https://developer.bitlabs.ai/docs"]').click();
   });
 });

@@ -9,7 +9,7 @@ describe('Payout Bitlabs', () => {
     cy.get('.bb-submit').click();
     
   });
-  it('Site profile', () => { 
+  it('Site payout', () => { 
     cy.get('[href="/payout"]').click();
   });
 });
